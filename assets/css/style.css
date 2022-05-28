@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #000;
+    background-color: #000  ;
     color: white;
     font-family: 'Rajdhani', sans-serif;
 }
@@ -26,13 +26,13 @@ h1, #menu {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(./images/zombie-background-3.png) no-repeat center center;
+    background: url(../images/zombie-background-3.png) no-repeat center center;
 }
 
 #logo {
     color: white;
     float: left;
-    font-size: 280%;
+    font-size: 300%;
     margin-left: 30px;
 }
 
@@ -46,4 +46,40 @@ h1, #menu {
     margin-right: 30px;
     letter-spacing: 4px;
     color: white;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 110%;
+}
+
+#menu a:hover {
+    color: red;
+}
+
+footer {
+    height: 75px;
+    position: sticky;
+    background-color: #4A0404;
+    margin: 30px 0 0 0;
+}
+
+.social-networks {
+    text-align: center;
+    height: inherit;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    color: white;
+}
+
+.social-networks i:hover {
+    color: red;
 }
