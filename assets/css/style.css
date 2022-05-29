@@ -89,8 +89,9 @@ footer {
     color: red;
 }
 
-#news-repo {
-    float: right;
-    width: 60%;
-    height: auto;
+.home-info-1 {
+    display: inline;
+    float: left;
+    max-width: 33%;
+    margin: 2% 0 0 2%
 }
