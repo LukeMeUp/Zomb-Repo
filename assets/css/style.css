@@ -103,6 +103,7 @@ footer {
 .symptom-img {
     background-color: white;
     border: 1px solid #000;
+    border-radius: 10%;
 }
 
 .symptom-left {
@@ -123,7 +124,16 @@ footer {
     padding-bottom: 1000px;
 }
 
+.symptoms-block {
+    display: inline-flex;
+    padding: 5%;
+}
+
 #test {
     float: right;
     margin: 2% 5% 0 0;
+}
+
+.grid {
+    width: 100%;
 }
