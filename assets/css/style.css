@@ -95,3 +95,35 @@ footer {
     max-width: 33%;
     margin: 2% 0 0 2%
 }
+
+#symptoms-buffer {
+    padding-top: 10%;
+}
+
+.symptom-img {
+    background-color: white;
+    border: 1px solid #000;
+}
+
+.symptom-left {
+    float: left;
+    clear: both;
+    margin-left: 2%;
+    position: relative;
+}
+
+.symptom-right {
+    float: right;
+    clear: both;
+    margin-right: 2%;
+    position: relative;
+}
+
+.content-buffer-bottom {
+    padding-bottom: 1000px;
+}
+
+#test {
+    float: right;
+    margin: 2% 5% 0 0;
+}
